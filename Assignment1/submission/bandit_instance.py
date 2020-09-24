@@ -7,9 +7,6 @@ class MultiArmedBandit:
         self.num_arms = len(self.means)
         self.p_star = np.max(self.means)
         f.close()
-        # print(self.means)
-        # print(self.num_arms)
-        # print(self.p_star)
 
     def pull_arm(self, armi):
         if armi < self.num_arms:
