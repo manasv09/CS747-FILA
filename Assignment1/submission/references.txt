@@ -1,0 +1,26 @@
+1. References for writing program for binary search in KL-UCB:
+
+- Understanding the Newton's Method (https://en.wikipedia.org/wiki/Newton%27s_method#Square_root)
+- Understanding the Babylonian Method of finding square roots (https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method)
+
+
+2. Other programming references
+
+- Numpys references page (https://docs.scipy.org/doc/numpy/reference/)
+- Matplotlib pyplot references (https://matplotlib.org/api/pyplot_api.html)
+- Tar zipping (https://support.apple.com/en-in/guide/terminal/apdc52250ee-4659-4751-9a3a-8b7988150530/mac)
+
+
+3.For understanding the algorithm of KL-UCB:
+
+- https://arxiv.org/pdf/1102.2490
+
+
+4. References for Markdown for report creation
+
+- Basic syntax (https://www.markdownguide.org/basic-syntax/)
+- Extended syntax (https://www.markdownguide.org/extended-syntax/)
+
+5. Other references
+
+- For deciding recursive vs iterative binary search (https://www.tutorialspoint.com/what-are-the-differences-between-recursion-and-iteration-in-java)
