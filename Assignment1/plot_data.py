@@ -11,7 +11,7 @@ IP_NAMES = ['Instance 1', 'Instance 2', 'Instance 3']
 algos = ALGORITHM_NAMES1
 regs = np.zeros (((3, len(algos), 6)))
 
-data = pd.read_csv('outputDataT1.txt', delimiter=', ', header=None, engine='python')
+data = pd.read_csv('submission/outputDataT1.txt', delimiter=', ', header=None, engine='python')
 data.columns = ['f_name', 'algo', 'seed', 'epsilon', 'horizon', 'regret']
 df = pd.DataFrame(data)
 
@@ -39,7 +39,7 @@ for i in range(3):
 
 algos = ALGORITHM_NAMES2
 regs = np.zeros (((3, len(algos), 6)))
-data = pd.read_csv('outputDataT2.txt', delimiter=', ', header=None, engine='python')
+data = pd.read_csv('submission/outputDataT2.txt', delimiter=', ', header=None, engine='python')
 data.columns = ['f_name', 'algo', 'seed', 'epsilon', 'horizon', 'regret']
 df = pd.DataFrame(data)
 m = 0

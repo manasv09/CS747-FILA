@@ -1,7 +1,7 @@
 import numpy as np
 import time
-from bandit_instance import MultiArmedBandit
-from algorithms import EpsilonGreedy, UCB, KLUCB, Thompson, ThompsonHint
+from submission.bandit_instance import MultiArmedBandit
+from submission.algorithms import EpsilonGreedy, UCB, KLUCB, Thompson, ThompsonHint
 
 seed = np.arange(50)
 
@@ -19,8 +19,8 @@ eps2 = [0.003, 0.04, 0.6]
 ALGORITHMS3 = [Thompson, ThompsonHint]
 ALGORITHM_NAMES3 = ['thompson-sampling', 'thompson-sampling-with-hint']
 
-IN_FILES = ['../instances/i-1.txt', '../instances/i-2.txt', '../instances/i-3.txt']
-OUT_FILES = ['T1.txt', 'T2.txt']
+IN_FILES = ['instances/i-1.txt', 'instances/i-2.txt', 'instances/i-3.txt']
+OUT_FILES = ['submission/outputDataT1.txt', 'submission/outputDataT2.txt']
 IP_NAMES = ['Instance 1', 'Instance 2', 'Instance 3']
 
 exp1 = OUT_FILES[0]
