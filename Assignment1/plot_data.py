@@ -33,7 +33,7 @@ for i in range(3):
     plt.xlabel('Horizon (T) in log_Scale')
     plt.ylabel('Avg. Regret')
     plt.title(IP_NAMES[i])
-    # plt.savefig('T4_a.png')
+    # plt.savefig(IP_NAMES[i]+'_T4_a.png')
     plt.show()
 
 
@@ -58,7 +58,7 @@ for i in range(3):
     plt.xlabel('Horizon (T) in log_Scale')
     plt.ylabel('Avg. Regret')
     plt.title(IP_NAMES[i])
-    # plt.savefig('T4_b.png')
+    # plt.savefig(IP_NAMES[i]+'_T4_b.png')
     plt.show()
 
 # print(regs)
