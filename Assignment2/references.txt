@@ -1,0 +1,8 @@
+1. Coding References
+
+- Numpys references page (https://docs.scipy.org/doc/numpy/reference/)
+- PULP references page (https://coin-or.github.io/pulp/)
+
+2. References for LaTeX for report creation
+
+- LaTeX syntax (https://www.overleaf.com/learn/latex/Commands)
