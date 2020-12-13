@@ -1,0 +1,2 @@
+1. https://numpy.org/doc/stable/
+2. https://matplotlib.org/api/pyplot_api.html
